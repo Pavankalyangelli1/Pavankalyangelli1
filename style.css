@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+nav {
+  background: #222;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #0077ff;
+  color: white;
+}
+
+section {
+  padding: 40px;
+}
+
+.skills-list li {
+  display: inline-block;
+  background: #ddd;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+}
